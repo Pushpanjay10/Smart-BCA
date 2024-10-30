@@ -36,7 +36,7 @@ function ForgetPasswordPage() {
 					<input
 						type="number"
 						name="registration_no"
-						placeholder="Registration No."
+						placeholder="Roll No."
 						className="inputBottomMargin"
 						onKeyDown={handleMsgHideOnKeyUp}
 					/>

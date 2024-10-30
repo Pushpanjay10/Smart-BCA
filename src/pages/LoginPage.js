@@ -48,7 +48,7 @@ function LoginPage() {
 							<input
 								type="number"
 								name="registration_no"
-								placeholder="Registration No."
+								placeholder="Roll No."
 								disabled={isApiLoading}
 								className="inputBottomMargin"
 								onKeyDown={handleMsgHideOnKeyUp}

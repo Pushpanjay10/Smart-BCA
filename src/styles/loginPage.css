@@ -9,7 +9,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	/* background: #242526; */
-	background: linear-gradient(135deg, rgb(27, 26, 26) 5%, rgb(53, 35, 20) 40%, rgba(255, 145, 10, 1) 100%);
+	background: linear-gradient(135deg, rgb(27, 26, 26) 5%, rgb(53, 35, 20) 40%, rgb(109, 109, 109) 100%);
 	overflow: hidden;
 	width: 100%;
 	min-height: 100vh;
