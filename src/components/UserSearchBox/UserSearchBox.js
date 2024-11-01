@@ -23,7 +23,7 @@ function UserSearchBox() {
 					}
 				}}
 				type="text"
-				placeholder="Search Registration No."
+				placeholder="Search Roll Number."
 			/>
 			<SearchIcon sx={{ py: 0.5, pr: 1, cursor: 'pointer' }} onClick={handleSearch} />
 		</div>
