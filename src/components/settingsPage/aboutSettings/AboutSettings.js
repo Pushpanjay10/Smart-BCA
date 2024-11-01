@@ -7,10 +7,10 @@ function AboutSettings() {
 		<div className="aboutSettings">
 			<div className="aboutDevloperSection">
 				<div className="aboutDeveloperTitle">About developer</div>
-				<div>Developed by pushpanjay patel</div>
-				<div>Group :- 2</div>
-				<div>Section:- D2308</div>
-				<div>Roll no:- 39</div>
+				<div>Developed by Pushpanjay patel</div>
+				<div>Year:-1st Year</div>
+				<div>Session :- 2024-27</div>
+				<div>Roll no:- 103</div>
 			</div>
 			<div className="contactSection">
 				<div className="contactSectionTitle">Contact us on:-</div>
