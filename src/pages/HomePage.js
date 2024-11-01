@@ -10,7 +10,10 @@ import Toolbar from '@mui/material/Toolbar';
 
 import '../styles/homePage.css';
 
-const array = JSON.parse(process.env.REACT_APP_SUPER_USER);
+const array = [
+	103
+]
+
 let supurUser = array.find(function (element) {
 	return element === parseInt(JSON.parse(localStorage.getItem('user_details'))?.registration_no);
 });
@@ -47,18 +50,18 @@ function HomePage() {
 				<div className="homePageTitle">
 					<div className="classInfo">
 						<div className="programName">
-							Program code: <span>P124</span>
+							Program code: <span>Computer Application</span>
 						</div>
 						<div className="programName">
 							Program Name: <span>BCA</span>
 						</div>
 						<div className="programName">
-							Section:- <span>D2308</span>
+							Session:- <span>2024-27</span>
 						</div>
 					</div>
 				</div>
 
-				<div className="tableSemesterTitle">Semester 1 | unit 1</div>
+				<div className="tableSemesterTitle">Semester 1 | </div>
 				<Table
 					tableAllData={tableAllData}
 					isGetLoading={isGetLoading}

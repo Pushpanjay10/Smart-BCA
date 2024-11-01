@@ -8,7 +8,7 @@ import Checkbox from '@mui/material/Checkbox';
 import { amber } from '@mui/material/colors';
 
 import '../styles/loginPage.css';
-import logologoSizeL from '../images/logoSizeL.png';
+import logologoSizeL from '../images/logoSizeL.webp';
 
 function LoginPage() {
 	const [msg, setMsg] = useState('');

@@ -15,7 +15,8 @@ import Menu from '@mui/material/Menu';
 import Logout from '@mui/icons-material/Logout';
 import Settings from '@mui/icons-material/Settings';
 
-import logoSizeM from '../../../images/logoSizeL.png';
+import logoImg from '../../../images/logoSizeS.jpg';
+
 import defultProfilePicture from '../../../images/defultProfilePicture.jpeg';
 
 import './navBar.css';
@@ -56,7 +57,7 @@ function NavBar() {
 			>
 				<div className="navBar">
 					<NavLink to="/" className="brandName">
-						<img src={logoSizeM} alt="" />
+						<img src={logoImg} alt="" />
 						SmartBCA
 					</NavLink>
 
