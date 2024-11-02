@@ -61,7 +61,7 @@ function HomePage() {
 					</div>
 				</div>
 
-				<div className="tableSemesterTitle"> FIRST YEAR 2024 </div>
+				<div className="tableSemesterTitle"> FIRST YEAR 2024-25 </div>
 				<Table
 					tableAllData={tableAllData}
 					isGetLoading={isGetLoading}
